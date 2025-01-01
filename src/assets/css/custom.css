@@ -1,0 +1,18 @@
+.sidenav-footer{
+    position: absolute;
+    bottom: 18px;
+}
+.main-zero-margin{
+    margin-left: 0 !important;
+}
+.sidebar-hide{
+    transform: translateX(-17.125rem);
+}
+
+
+.main-add-margin{
+    margin-left: 15rem !important;
+}
+.sidebar-show{
+    transform: translateX(0);
+}
