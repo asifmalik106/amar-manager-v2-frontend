@@ -1,4 +1,5 @@
 "use strict";
+alert("hello!")
 (function() {
   var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
@@ -614,7 +615,7 @@ function toggleSidenav() {
       sidenav.classList.add('sidebar-hide');
       maincontent.classList.add('main-zero-margin');
       maincontent.classList.remove('main-add-margin');
-      
+
     }, 100);
     sidenav.classList.remove('bg-transparent');
 
@@ -628,7 +629,7 @@ function toggleSidenav() {
     sidenav.classList.remove('sidebar-hide');
     maincontent.classList.add('main-add-margin');
     maincontent.classList.remove('main-zero-margin');
-    
+
     iconSidenav.classList.remove('d-none');
   }
 }
